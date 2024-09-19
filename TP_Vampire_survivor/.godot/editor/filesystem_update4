@@ -1,1 +1,5 @@
 res://Scene/level.tscn
+res://Scene/Player.tscn
+res://Scene/player.gd
+res://Script/player.gd
+res://Tilemap/LevelTilemap.tres

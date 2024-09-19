@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726775749
-::res://Assets/::1726775749
-::res://Assets/Environnement/::1726775749
+::res://::1726776687
+::res://Assets/::1726776687
+::res://Assets/Environnement/::1726775751
 Animation1.png::CompressedTexture2D::5323921687083764307::1726775738::1726775751::1::::<><>::
 Animation2.png::CompressedTexture2D::4574758703796364142::1726775738::1726775751::1::::<><>::
 Animation3.png::CompressedTexture2D::2428647236739484394::1726775738::1726775751::1::::<><>::
@@ -14,7 +14,7 @@ Objects.png::CompressedTexture2D::470763555347995001::1726775738::1726775751::1:
 Water_coasts.png::CompressedTexture2D::3661335292501132928::1726775738::1726775751::1::::<><>::
 water_detilazation.png::CompressedTexture2D::836195106597193081::1726775738::1726775751::1::::<><>::
 water_detilazation_v2.png::CompressedTexture2D::7260402003230538945::1726775738::1726775751::1::::<><>::
-::res://Assets/Environnement/Objects_separately/::1726775740
+::res://Assets/Environnement/Objects_separately/::1726775752
 Bones_shadow1_1.png::CompressedTexture2D::7831057541679697888::1726775738::1726775751::1::::<><>::
 Bones_shadow1_2.png::CompressedTexture2D::5890285251478017052::1726775738::1726775751::1::::<><>::
 Bones_shadow1_3.png::CompressedTexture2D::3891961946986549738::1726775738::1726775751::1::::<><>::
@@ -255,6 +255,55 @@ Tree_shadow2_3.png::CompressedTexture2D::5959842476894887262::1726775738::172677
 Tree_shadow3_1.png::CompressedTexture2D::2735636729570934646::1726775738::1726775751::1::::<><>::
 Tree_shadow3_2.png::CompressedTexture2D::3837228484809397324::1726775738::1726775751::1::::<><>::
 Tree_shadow3_3.png::CompressedTexture2D::8162347614032976180::1726775738::1726775751::1::::<><>::
-::res://Scene/::1726775624
-level.tscn::PackedScene::439694393561123128::1726775624::0::1::::<><>::
+::res://Assets/Player/::1726776687
+spr_shadow.png::CompressedTexture2D::5992011988519577394::1726776677::1726776688::1::::<><>::
+::res://Assets/Player/Back animations/::1726776678
+spr_player_back_attack.png::CompressedTexture2D::5388511489321194940::1726776677::1726776688::1::::<><>::
+spr_player_back_hit.png::CompressedTexture2D::5144376129825308826::1726776677::1726776688::1::::<><>::
+spr_player_back_idle.png::CompressedTexture2D::1121072847847204120::1726776677::1726776688::1::::<><>::
+spr_player_back_walk.png::CompressedTexture2D::5744206198492799561::1726776677::1726776688::1::::<><>::
+::res://Assets/Player/Front animations/::1726776678
+spr_player_front_attack.png::CompressedTexture2D::1548192522700712946::1726776677::1726776688::1::::<><>::
+spr_player_front_hit.png::CompressedTexture2D::144119069616733666::1726776677::1726776688::1::::<><>::
+spr_player_front_idle.png::CompressedTexture2D::3354231867632124042::1726776677::1726776688::1::::<><>::
+spr_player_front_walk.png::CompressedTexture2D::7847821437435037108::1726776677::1726776688::1::::<><>::
+::res://Assets/Player/hit animations without filter/::1726776678
+Read me!.txt::TextFile::-1::1726776677::0::1::::<><>::
+spr_player_back_hit_clear.png::CompressedTexture2D::7548038801328038655::1726776677::1726776688::1::::<><>::
+spr_player_front_hit_clear.png::CompressedTexture2D::665652350717388045::1726776677::1726776688::1::::<><>::
+spr_player_left_hit_clear.png::CompressedTexture2D::3612342123956108872::1726776677::1726776688::1::::<><>::
+spr_player_right_hit_clear.png::CompressedTexture2D::4463069813810955423::1726776677::1726776688::1::::<><>::
+::res://Assets/Player/Shadowless animations/::1726776678
+Read ME!.txt::TextFile::-1::1726776677::0::1::::<><>::
+spr_player_back_attack_shadowless.png::CompressedTexture2D::7693209124179941534::1726776677::1726776688::1::::<><>::
+spr_player_back_hit_shadowless.png::CompressedTexture2D::927777398289049034::1726776677::1726776688::1::::<><>::
+spr_player_back_idle_shadowless.png::CompressedTexture2D::6270698986478745784::1726776677::1726776688::1::::<><>::
+spr_player_back_walk_shadowless.png::CompressedTexture2D::6337865916705177928::1726776677::1726776688::1::::<><>::
+spr_player_front_attack_shadowless.png::CompressedTexture2D::5561547413525338947::1726776677::1726776688::1::::<><>::
+spr_player_front_hit_shadowless.png::CompressedTexture2D::201624709978658656::1726776677::1726776688::1::::<><>::
+spr_player_front_idle_shadowless.png::CompressedTexture2D::1100852980662833785::1726776677::1726776688::1::::<><>::
+spr_player_front_walk_shadowless.png::CompressedTexture2D::7390679068770393982::1726776677::1726776688::1::::<><>::
+spr_player_left_attack_shadowless.png::CompressedTexture2D::6235550974043213441::1726776677::1726776688::1::::<><>::
+spr_player_left_hit_shadowless.png::CompressedTexture2D::622327831407334650::1726776677::1726776688::1::::<><>::
+spr_player_left_idle_shadowless.png::CompressedTexture2D::1565334780034619095::1726776677::1726776688::1::::<><>::
+spr_player_left_walk_shadowless.png::CompressedTexture2D::237746508347517508::1726776677::1726776688::1::::<><>::
+spr_player_right_attack_shadowless.png::CompressedTexture2D::6765335550230549255::1726776677::1726776688::1::::<><>::
+spr_player_right_hit_shadowless.png::CompressedTexture2D::6125356846314166165::1726776677::1726776688::1::::<><>::
+spr_player_right_idle_shadowless.png::CompressedTexture2D::6900785324197002022::1726776677::1726776688::1::::<><>::
+spr_player_right_walk_shadowless.png::CompressedTexture2D::5616498226997218721::1726776677::1726776688::1::::<><>::
+::res://Assets/Player/Side animations/::1726776678
+spr_player_left_attack.png::CompressedTexture2D::3215665573519794316::1726776677::1726776688::1::::<><>::
+spr_player_left_hit.png::CompressedTexture2D::6231742904959353622::1726776677::1726776688::1::::<><>::
+spr_player_left_idle.png::CompressedTexture2D::7744285628307440826::1726776677::1726776688::1::::<><>::
+spr_player_left_walk.png::CompressedTexture2D::866166925394118248::1726776677::1726776688::1::::<><>::
+spr_player_right_attack.png::CompressedTexture2D::8632450142162651347::1726776677::1726776688::1::::<><>::
+spr_player_right_hit.png::CompressedTexture2D::6353695291771970894::1726776677::1726776688::1::::<><>::
+spr_player_right_idle.png::CompressedTexture2D::2594859638586045937::1726776677::1726776688::1::::<><>::
+spr_player_right_walk.png::CompressedTexture2D::3008962855606275791::1726776677::1726776688::1::::<><>::
+::res://Assets/Player/Special animations/::1726776678
+spr_player_death.png::CompressedTexture2D::3273517112876904302::1726776677::1726776688::1::::<><>::
+::res://Scene/::1726776440
+level.tscn::PackedScene::439694393561123128::1726776440::0::1::::<><>::
+Player.tscn::PackedScene::7982034550120444161::1726777549::0::1::::<><>::res://Scene/player.gd<>uid://dj2sqcg5chokq::::res://Assets/Player/Front animations/spr_player_front_walk.png<>uid://bc777u018ygeb::::res://Assets/Player/Side animations/spr_player_right_idle.png<>uid://bi4tgcqme1xc6::::res://Assets/Player/Side animations/spr_player_right_walk.png<>uid://cn3sib2fm5e2t::::res://Assets/Player/Back animations/spr_player_back_walk.png
+player.gd::GDScript::-1::1726777534::0::1::::<>CharacterBody2D<>::
 ::res://Script/::1726775632
