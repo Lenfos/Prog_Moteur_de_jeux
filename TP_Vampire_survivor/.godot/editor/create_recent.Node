@@ -1,6 +1,9 @@
+Node
+PointLight2D
+CanvasModulate
+DirectionalLight2D
 TileMapLayer
 CollisionShape2D
-Node
 Camera2D
 AnimatedSprite2D
 CharacterBody2D
