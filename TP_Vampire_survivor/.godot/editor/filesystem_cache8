@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1727102737
+::res://::1727132624
 ::res://Assets/::1726776687
 ::res://Assets/Environnement/::1727058667
 Animation1.png::CompressedTexture2D::5323921687083764307::1726775738::1726775751::1::::<><>::
@@ -303,10 +303,10 @@ spr_player_right_idle.png::CompressedTexture2D::2594859638586045937::1726776677:
 spr_player_right_walk.png::CompressedTexture2D::3008962855606275791::1726776677::1726776688::1::::<><>::
 ::res://Assets/Player/Special animations/::1726776688
 spr_player_death.png::CompressedTexture2D::3273517112876904302::1726776677::1726776688::1::::<><>::
-::res://Scene/::1727059433
-level.tscn::PackedScene::439694393561123128::1727059433::0::1::::<><>::uid://dlys7b62iv7q0::::res://Scene/Player.tscn<>uid://day3qd4bbfxlg::::res://Tilemap/LevelTilemap.tres<>uid://df25nljxrdkip::::res://Assets/Environnement/light.png
-Player.tscn::PackedScene::7982034550120444161::1727059412::0::1::::<><>::res://Script/player.gd<>uid://dj2sqcg5chokq::::res://Assets/Player/Front animations/spr_player_front_walk.png<>uid://bc777u018ygeb::::res://Assets/Player/Side animations/spr_player_right_idle.png<>uid://bi4tgcqme1xc6::::res://Assets/Player/Side animations/spr_player_right_walk.png<>uid://cn3sib2fm5e2t::::res://Assets/Player/Back animations/spr_player_back_walk.png
+::res://Scene/::1727103607
+level.tscn::PackedScene::439694393561123128::1727103607::0::1::::<><>::uid://dlys7b62iv7q0::::res://Scene/Player.tscn<>uid://day3qd4bbfxlg::::res://Tilemap/LevelTilemap.tres<>uid://df25nljxrdkip::::res://Assets/Environnement/light.png
+Player.tscn::PackedScene::7982034550120444161::1727103607::0::1::::<><>::res://Script/player.gd<>uid://dj2sqcg5chokq::::res://Assets/Player/Front animations/spr_player_front_walk.png<>uid://bc777u018ygeb::::res://Assets/Player/Side animations/spr_player_right_idle.png<>uid://bi4tgcqme1xc6::::res://Assets/Player/Side animations/spr_player_right_walk.png<>uid://cn3sib2fm5e2t::::res://Assets/Player/Back animations/spr_player_back_walk.png
 ::res://Script/::1727039343
 player.gd::GDScript::-1::1727039343::0::1::::<>CharacterBody2D<>::
-::res://Tilemap/::1727058752
-LevelTilemap.tres::TileSet::7210535968093050864::1727058752::0::1::::<><>::uid://dxxgvm43x0ook::::res://Assets/Environnement/Ground_rocks.png<>uid://gybn3p3icd58::::res://Assets/Environnement/Objects.png<>uid://bsftwl5cytfau::::res://Assets/Environnement/Water_coasts.png<>uid://bb6ix1w5che4u::::res://Assets/Environnement/Animation6.png<>uid://dbo8033jwuqkn::::res://Assets/Environnement/water_detilazation_v2.png<>uid://ch37hhqjb6exn::::res://Assets/Environnement/Animation1.png<>uid://b6gbuwibitvog::::res://Assets/Environnement/Animation2.png<>uid://baupp2yvd5wco::::res://Assets/Environnement/Animation3.png<>uid://my6nvprbykqx::::res://Assets/Environnement/Animation4.png<>uid://dn84iag0l74im::::res://Assets/Environnement/Animation5.png
+::res://Tilemap/::1727103607
+LevelTilemap.tres::TileSet::7210535968093050864::1727103607::0::1::::<><>::uid://dxxgvm43x0ook::::res://Assets/Environnement/Ground_rocks.png<>uid://gybn3p3icd58::::res://Assets/Environnement/Objects.png<>uid://bsftwl5cytfau::::res://Assets/Environnement/Water_coasts.png<>uid://bb6ix1w5che4u::::res://Assets/Environnement/Animation6.png<>uid://dbo8033jwuqkn::::res://Assets/Environnement/water_detilazation_v2.png<>uid://ch37hhqjb6exn::::res://Assets/Environnement/Animation1.png<>uid://b6gbuwibitvog::::res://Assets/Environnement/Animation2.png<>uid://baupp2yvd5wco::::res://Assets/Environnement/Animation3.png<>uid://my6nvprbykqx::::res://Assets/Environnement/Animation4.png<>uid://dn84iag0l74im::::res://Assets/Environnement/Animation5.png
