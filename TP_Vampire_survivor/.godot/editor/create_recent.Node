@@ -1,3 +1,8 @@
+Button
+VBoxContainer
+MarginContainer
+MenuButton
+Label
 Node
 PointLight2D
 CanvasModulate

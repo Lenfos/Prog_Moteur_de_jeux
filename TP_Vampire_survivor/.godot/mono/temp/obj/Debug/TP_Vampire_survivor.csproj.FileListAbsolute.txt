@@ -1,0 +1,17 @@
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.csproj.AssemblyReference.cache
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.AssemblyInfoInputs.cache
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.AssemblyInfo.cs
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.csproj.CoreCompileInputs.cache
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\bin\Debug\TP_Vampire_survivor.deps.json
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\bin\Debug\TP_Vampire_survivor.runtimeconfig.json
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\bin\Debug\TP_Vampire_survivor.dll
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\bin\Debug\TP_Vampire_survivor.pdb
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.dll
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\refint\TP_Vampire_survivor.dll
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.pdb
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.genruntimeconfig.cache
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\ref\TP_Vampire_survivor.dll
+C:\Users\pierr\Documents\Projects\Prog_Moteur_de_jeux\TP_Vampire_survivor\.godot\mono\temp\obj\Debug\TP_Vampire_survivor.csproj.CopyComplete
