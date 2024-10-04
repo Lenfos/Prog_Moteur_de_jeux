@@ -12,8 +12,14 @@ config_version=5
 
 config/name="TP_Vampire_survivor"
 config/description="Enter an interesting project description here!"
-run/main_scene="res://Scene/level.tscn"
-config/features=PackedStringArray("4.3")
+run/main_scene="res://Scene/Level/main_menu.tscn"
+run/main_loop_type="Manager"
+config/features=PackedStringArray("4.3", "C#")
+config/icon="res://icon.png"
+
+[dotnet]
+
+project/assembly_name="TP_Vampire_survivor"
 
 [input]
 

@@ -1,5 +1,2 @@
-res://Tilemap
-res://Assets/Player/Back animations
-res://Assets/Player/Front animations
-res://Assets/Player/Side animations
-res://Scene
+res://Script
+res://Scene/Level
