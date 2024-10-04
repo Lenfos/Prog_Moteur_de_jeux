@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=4 uid="uid://gi8x488sfv3e"]
+[gd_scene load_steps=6 format=4 uid="uid://gi8x488sfv3e"]
 
 [ext_resource type="PackedScene" uid="uid://dlys7b62iv7q0" path="res://Scene/Player.tscn" id="1_5ec0t"]
+[ext_resource type="Script" path="res://Script/Level.cs" id="1_fjhce"]
 [ext_resource type="Texture2D" uid="uid://df25nljxrdkip" path="res://Assets/Environnement/light.png" id="2_xntra"]
 [ext_resource type="TileSet" uid="uid://day3qd4bbfxlg" path="res://Tilemap/LevelTilemap.tres" id="3_5plo8"]
 
@@ -22,6 +23,7 @@ func _physics_process(delta: float) -> void:
 
 [node name="Level" type="Node2D"]
 y_sort_enabled = true
+script = ExtResource("1_fjhce")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_5ec0t")]
 z_index = 5

@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728071893
-::res://Assets/::1728049825
+::res://::1728077049
+::res://Assets/::1728076631
+MenuBG.png::CompressedTexture2D::279733093591605921::1728076446::1728077051::1::::<><>::
 ::res://Assets/Environnement/::1728050025
 Animation1.png::CompressedTexture2D::5323921687083764307::1728049825::1728050025::1::::<><>::
 Animation2.png::CompressedTexture2D::4574758703796364142::1728049825::1728050025::1::::<><>::
@@ -303,16 +304,52 @@ spr_player_right_idle.png::CompressedTexture2D::2594859638586045937::1728049825:
 spr_player_right_walk.png::CompressedTexture2D::3008962855606275791::1728049825::1728050025::1::::<><>::
 ::res://Assets/Player/Special animations/::1728050025
 spr_player_death.png::CompressedTexture2D::3273517112876904302::1728049825::1728050025::1::::<><>::
-::res://Scene/::1728071795
-Player.tscn::PackedScene::7982034550120444161::1728071795::0::1::::<><>::res://Script/player.gd<>uid://dj2sqcg5chokq::::res://Assets/Player/Front animations/spr_player_front_walk.png<>uid://bc777u018ygeb::::res://Assets/Player/Side animations/spr_player_right_idle.png<>uid://bi4tgcqme1xc6::::res://Assets/Player/Side animations/spr_player_right_walk.png<>uid://cn3sib2fm5e2t::::res://Assets/Player/Back animations/spr_player_back_walk.png
-::res://Scene/Level/::1728071795
-level.tscn::PackedScene::439694393561123128::1728071795::0::1::::<><>::uid://dlys7b62iv7q0::::res://Scene/Player.tscn<>uid://df25nljxrdkip::::res://Assets/Environnement/light.png<>uid://day3qd4bbfxlg::::res://Tilemap/LevelTilemap.tres
-main_menu.tscn::PackedScene::7697208678380886193::1728071795::0::1::::<><>::res://Script/MainMenu.cs
-::res://Script/::1728071872
-LevelManager.cs::CSharpScript::-1::1728071872::0::1::::<>Node<>::
+::res://Assets/UI/::1728076647
+::res://Assets/UI/DarkMode Interface/::1728076625
+::res://Assets/UI/DarkMode Interface/Dialogue interfaces/::1728076634
+spr_dialogue_box_9slice.png::CompressedTexture2D::8416472576526334646::1710746009::1728077051::1::::<><>::
+spr_dialogue_box_button.png::CompressedTexture2D::937710258965423570::1710746091::1728077051::1::::<><>::
+spr_dialogue_box_withoutstartingpoint_9slice.png::CompressedTexture2D::8396221028718281140::1710746062::1728077051::1::::<><>::
+::res://Assets/UI/DarkMode Interface/Enemy Healthbar/::1728076634
+spr_enemy_health_bar.png::CompressedTexture2D::1841767328482596977::1710745657::1728077051::1::::<><>::
+spr_enemy_health_bar_frame.png::CompressedTexture2D::4498636556709636042::1710745558::1728077051::1::::<><>::
+::res://Assets/UI/DarkMode Interface/GameplayHud/::1728076634
+spr_banner_hud.png::CompressedTexture2D::3312095968299210919::1710745314::1728077051::1::::<><>::
+::res://Assets/UI/DarkMode Interface/Player interface/::1728076625
+::res://Assets/UI/DarkMode Interface/Player interface/Player Status/::1728076634
+spr_item_slot.png::CompressedTexture2D::1007369432432810918::1710745220::1728077051::1::::<><>::
+spr_money_interface.png::CompressedTexture2D::2428665864706211543::1710745193::1728077051::1::::<><>::
+::res://Assets/UI/DarkMode Interface/Player interface/Player Status/Bars/::1728076634
+spr_health_bar.png::CompressedTexture2D::5502391345854409566::1710728504::1728077051::1::::<><>::
+spr_mana_bar.png::CompressedTexture2D::3875707509001701787::1710728518::1728077051::1::::<><>::
+spr_stamina_bar.png::CompressedTexture2D::7251829011428856071::1710728536::1728077051::1::::<><>::
+::res://Assets/UI/DarkMode Interface/Player interface/Player Status/Player status bars frame for 9-slice/::1728076634
+spr_energy_bar_9slice.png::CompressedTexture2D::5020926716322426650::1711010695::1728077051::1::::<><>::
+spr_energy_bar_bk_9slice.png::CompressedTexture2D::5435991519579089811::1711010693::1728077051::1::::<><>::
+spr_health_bar_9slice.png::CompressedTexture2D::2111641337323173560::1711010674::1728077051::1::::<><>::
+spr_health_bar_bk_9slice.png::CompressedTexture2D::434730904515066101::1711010671::1728077051::1::::<><>::
+spr_mana_bar_9slice.png::CompressedTexture2D::5556026736611058413::1711010657::1728077051::1::::<><>::
+spr_mana_bar_bk_9slice.png::CompressedTexture2D::2513059131409852810::1711010651::1728077051::1::::<><>::
+spr_player_status_3bars_frame.png::CompressedTexture2D::6510159864435753511::1710728668::1728077051::1::::<><>::
+spr_player_status_frame.png::CompressedTexture2D::5033833164174713985::1710728611::1728077051::1::::<><>::
+::res://Assets/UI/DarkMode Interface/Player interface/Player Status/single size player status/::1728076634
+spr_player_status_3bars_version1.png::CompressedTexture2D::2147430213498631199::1711010589::1728077051::1::::<><>::
+spr_player_status_3bars_version2.png::CompressedTexture2D::6426415615956274536::1711010577::1728077051::1::::<><>::
+spr_player_status_healthbar_bk.png::CompressedTexture2D::1277278096563088429::1711010512::1728077051::1::::<><>::
+spr_player_status_manabar_bk.png::CompressedTexture2D::1912987217411312521::1711010562::1728077051::1::::<><>::
+spr_player_status_staminahbar_bk.png::CompressedTexture2D::350233486187804488::1711010536::1728077051::1::::<><>::
+spr_player_status_version1.png::CompressedTexture2D::1629160393341805286::1711010580::1728077051::1::::<><>::
+spr_player_status_version2.png::CompressedTexture2D::5012773340805751400::1711010584::1728077051::1::::<><>::
+::res://Scene/::1728075604
+Player.tscn::PackedScene::7982034550120444161::1728075604::0::1::::<><>::res://Script/player.gd<>uid://dj2sqcg5chokq::::res://Assets/Player/Front animations/spr_player_front_walk.png<>uid://bc777u018ygeb::::res://Assets/Player/Side animations/spr_player_right_idle.png<>uid://bi4tgcqme1xc6::::res://Assets/Player/Side animations/spr_player_right_walk.png<>uid://cn3sib2fm5e2t::::res://Assets/Player/Back animations/spr_player_back_walk.png
+::res://Scene/Level/::1728077024
+level.tscn::PackedScene::439694393561123128::1728075603::0::1::::<><>::uid://dlys7b62iv7q0::::res://Scene/Player.tscn<>uid://df25nljxrdkip::::res://Assets/Environnement/light.png<>uid://day3qd4bbfxlg::::res://Tilemap/LevelTilemap.tres
+main_menu.tscn::PackedScene::7697208678380886193::1728077024::0::1::::<><>::res://Script/MainMenu.cs
+::res://Script/::1728077037
+LevelManager.cs::CSharpScript::-1::1728073630::0::1::::<>Node<>::
 MainMenu.cs::CSharpScript::-1::1728069319::0::1::::<>Control<>::
-Manager.cs::CSharpScript::-1::1728070893::0::1::::Manager<>SceneTree<>::
-player.gd::GDScript::-1::1728050001::0::1::::<>CharacterBody2D<>::
-SaveManager.cs::CSharpScript::-1::1728050001::0::1::::<>Node<>::
-::res://Tilemap/::1728071193
-LevelTilemap.tres::TileSet::7210535968093050864::1728071193::0::1::::<><>::uid://dxxgvm43x0ook::::res://Assets/Environnement/Ground_rocks.png<>uid://gybn3p3icd58::::res://Assets/Environnement/Objects.png<>uid://bsftwl5cytfau::::res://Assets/Environnement/Water_coasts.png<>uid://bb6ix1w5che4u::::res://Assets/Environnement/Animation6.png<>uid://dbo8033jwuqkn::::res://Assets/Environnement/water_detilazation_v2.png<>uid://ch37hhqjb6exn::::res://Assets/Environnement/Animation1.png<>uid://b6gbuwibitvog::::res://Assets/Environnement/Animation2.png<>uid://baupp2yvd5wco::::res://Assets/Environnement/Animation3.png<>uid://my6nvprbykqx::::res://Assets/Environnement/Animation4.png<>uid://dn84iag0l74im::::res://Assets/Environnement/Animation5.png
+Manager.cs::CSharpScript::-1::1728073744::0::1::::Manager<>SceneTree<>::
+player.gd::GDScript::-1::1728077037::0::1::::<>CharacterBody2D<>::
+SaveManager.cs::CSharpScript::-1::1728077037::0::1::::<>Node<>::
+::res://Tilemap/::1728076950
+LevelTilemap.tres::TileSet::7210535968093050864::1728076950::0::1::::<><>::uid://dxxgvm43x0ook::::res://Assets/Environnement/Ground_rocks.png<>uid://gybn3p3icd58::::res://Assets/Environnement/Objects.png<>uid://bsftwl5cytfau::::res://Assets/Environnement/Water_coasts.png<>uid://bb6ix1w5che4u::::res://Assets/Environnement/Animation6.png<>uid://dbo8033jwuqkn::::res://Assets/Environnement/water_detilazation_v2.png<>uid://ch37hhqjb6exn::::res://Assets/Environnement/Animation1.png<>uid://b6gbuwibitvog::::res://Assets/Environnement/Animation2.png<>uid://baupp2yvd5wco::::res://Assets/Environnement/Animation3.png<>uid://my6nvprbykqx::::res://Assets/Environnement/Animation4.png<>uid://dn84iag0l74im::::res://Assets/Environnement/Animation5.png

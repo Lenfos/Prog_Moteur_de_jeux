@@ -21,6 +21,10 @@ config/icon="res://icon.png"
 
 project/assembly_name="TP_Vampire_survivor"
 
+[global_group]
+
+Saveable="Must be saved"
+
 [input]
 
 left={
