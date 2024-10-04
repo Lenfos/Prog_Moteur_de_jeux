@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_Vampire_survivor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c939992db80fe4904689b7cb64a78345f2741ac9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_Vampire_survivor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_Vampire_survivor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

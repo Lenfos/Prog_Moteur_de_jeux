@@ -3,7 +3,7 @@ using System;
 
 public partial class LevelManager : Node
 {
-	private const string PATH = "res://Scene/Level";
+	private const string PATH = "res://Scene/Level/";
 	
 	private static LevelManager instance;
 	
@@ -16,6 +16,6 @@ public partial class LevelManager : Node
 	
 	public void LoadLevel(string levelName){
 		Node scene = ResourceLoader.Load<PackedScene>(PATH + levelName + ".tscn").Instantiate();
-		GetTree().Root.AddChild(scene);
+		Manager.Get().Root.AddChild(scene);
 	}
 }

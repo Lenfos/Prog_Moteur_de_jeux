@@ -4,6 +4,5 @@ res://Scene/Player.tscn
 res://Scene/Level/main_menu.tscn
 res://Script/LevelManager.cs
 res://Script/SaveManager.cs
-res://Script/main_menu.cs
-res://Script/Manager.cs
 res://Script/MainMenu.cs
+res://Script/Manager.cs
