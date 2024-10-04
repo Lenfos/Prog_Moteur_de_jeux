@@ -5,6 +5,19 @@ extends CharacterBody2D
 
 const SPEED = 120.0
 
+func Save() -> Dictionary:
+	var saved_datas : Dictionary = {
+		"filename" : get_scene_file_path(),
+		"posX" : position.x,
+		"posY" : position.y,
+		"flipH" : animSprite.flip_h
+	}
+	return saved_datas
+	
+func Load(datas: Dictionary) -> void:
+	position.x = datas["posX"]
+	position.y = datas["posY"]
+	animSprite.flip_h = datas["flipH"]
 
 func _physics_process(delta: float) -> void:
 

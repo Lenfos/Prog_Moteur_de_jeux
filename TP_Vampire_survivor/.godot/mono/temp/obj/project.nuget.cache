@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "fALi/+YSCR1TlNXtkHZr2jTcxEkPQj/Z6kXhhDOzdBgGLadEbosD/IO3COCgGy8cJ6Xf1cZK7KXp1WawwjWYsg==",
+  "dgSpecHash": "rhvQJ/lyzGQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pierr\\Documents\\Projects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj",
+  "projectFilePath": "C:\\Users\\Yvain\\Documents\\GodotProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pierr\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
-    "C:\\Users\\pierr\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
-    "C:\\Users\\pierr\\.nuget\\packages\\godotsharpeditor\\4.3.0\\godotsharpeditor.4.3.0.nupkg.sha512"
+    "C:\\Users\\Yvain\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "C:\\Users\\Yvain\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\Yvain\\.nuget\\packages\\godotsharpeditor\\4.3.0\\godotsharpeditor.4.3.0.nupkg.sha512",
+    "C:\\Users\\Yvain\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\Yvain\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\Yvain\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512"
   ],
   "logs": []
 }

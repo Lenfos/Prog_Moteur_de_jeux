@@ -1,9 +1,4 @@
-res://Scene/Level/level.tscn
-res://Tilemap/LevelTilemap.tres
 res://Scene/Player.tscn
-res://Scene/Level/main_menu.tscn
-res://Script/LevelManager.cs
+res://Tilemap/LevelTilemap.tres
+res://Script/player.gd
 res://Script/SaveManager.cs
-res://Script/main_menu.cs
-res://Script/Manager.cs
-res://Script/MainMenu.cs
