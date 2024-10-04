@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yvain\\Documents\\GodotProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj": {}
+    "C:\\Users\\pierr\\Documents\\GDProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yvain\\Documents\\GodotProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj": {
+    "C:\\Users\\pierr\\Documents\\GDProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yvain\\Documents\\GodotProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj",
+        "projectUniqueName": "C:\\Users\\pierr\\Documents\\GDProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj",
         "projectName": "TP_Vampire_survivor",
-        "projectPath": "C:\\Users\\Yvain\\Documents\\GodotProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj",
-        "packagesPath": "C:\\Users\\Yvain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yvain\\Documents\\GodotProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\pierr\\Documents\\GDProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\TP_Vampire_survivor.csproj",
+        "packagesPath": "C:\\Users\\pierr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pierr\\Documents\\GDProjects\\Prog_Moteur_de_jeux\\TP_Vampire_survivor\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yvain\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pierr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,15 +72,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
+              "version": "[6.0.33, 6.0.33]"
             }
           ],
           "frameworkReferences": {
@@ -86,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Yvain\\.dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

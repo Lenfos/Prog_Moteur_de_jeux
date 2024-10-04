@@ -7,7 +7,7 @@ const SPEED = 120.0
 
 func Save() -> Dictionary:
 	var saved_datas : Dictionary = {
-		"filename" : get_scene_file_path(),
+		"filename" : get_path(),
 		"posX" : position.x,
 		"posY" : position.y,
 		"flipH" : animSprite.flip_h

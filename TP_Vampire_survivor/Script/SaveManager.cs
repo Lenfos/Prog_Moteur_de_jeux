@@ -15,7 +15,7 @@ public partial class SaveManager : Node
 		return instance;
 	}
 	
-	public void LoadGame(string path)
+	public void LoadGame()
 	{
 		if (!Godot.FileAccess.FileExists("user://savefile.json"))
 		{
@@ -38,8 +38,10 @@ public partial class SaveManager : Node
 			}
 			
 			var nodeDatas = new Godot.Collections.Dictionary<string, Variant>((Godot.Collections.Dictionary)jsonData.Data);
-
-			Manager.Get().GetRoot().GetNode((String)nodeDatas["filename"]);
+			
+			GD.Print(Manager.Get().Root.GetNode(nodeDatas["filename"].ToString()));
+			
+			Manager.Get().Root.GetNode(nodeDatas["filename"].ToString()).Call("Load", nodeDatas);
 		}
 	}
 	
@@ -47,16 +49,15 @@ public partial class SaveManager : Node
 	{
 		using var saveFile = Godot.FileAccess.Open("user://savefile.json", Godot.FileAccess.ModeFlags.Write);
 		
-		var savedNodes = GetTree().GetNodesInGroup("Saveable");
+		var savedNodes = Manager.Get().GetNodesInGroup("Saveable");
 		foreach (var node in savedNodes)
 		{
-
 			if (string.IsNullOrEmpty(node.SceneFilePath))
 			{
 				continue;
 			}
 
-			if (node.HasNode("Save"))
+			if (!node.HasMethod("Save"))
 			{
 				continue;
 			}

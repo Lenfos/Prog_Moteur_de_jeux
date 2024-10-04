@@ -6,3 +6,5 @@ res://Script/LevelManager.cs
 res://Script/SaveManager.cs
 res://Script/MainMenu.cs
 res://Script/Manager.cs
+res://Script/Level.cs
+res://Script/player.gd
